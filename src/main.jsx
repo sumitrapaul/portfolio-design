@@ -8,7 +8,10 @@ import Skills from './pages/Skills/Skills';
 import Home from './pages/Home/Home';
 import Projects from './pages/Projects/Projects';
 import About from './pages/About/About';
-import Contact from './pages/Contact/Contact';
+import ContactUs from './pages/ContactUs/ContactUs';
+import ProjectDetails from './pages/Projects/ProjectDetails';
+
+
 
 
 const router = createBrowserRouter([
@@ -27,15 +30,22 @@ const router = createBrowserRouter([
       },
       {
         path:"/projects",
-        element:<Projects></Projects>
+        element:<Projects></Projects>,
+        loader:() => fetch('/projects.json')
       },
+      {
+        path:'/details/:id',
+        element:<ProjectDetails></ProjectDetails>
+      },
+  
+     
       {
         path:"/about",
         element:<About></About>
       },
       {
         path:"/contact",
-        element:<Contact></Contact>
+        element:<ContactUs></ContactUs>
       }
     ],
   },

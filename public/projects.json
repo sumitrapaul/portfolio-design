@@ -1,0 +1,46 @@
+[
+    {
+      "id": 1,
+      "name": "Donation-Campaign",
+      "client": "https://github.com/sumitrapaul/donation-campaign",
+      "live": "https://adamant-turn.surge.sh/",
+      "image1": "https://i.ibb.co/HgHrc3s/Screenshot-1720.png",
+      "image2": "https://i.ibb.co/F7r3PH2/Screenshot-1721.png",
+      "image3": "https://i.ibb.co/hyFq89L/Screenshot-1722.png",
+      "image4": "https://i.ibb.co/6Ww1CgB/Screenshot-1723.png",
+      "image5": "https://i.ibb.co/ZznGLBH/Screenshot-1724.png",
+      "technology": "React Js",
+      "features":
+        "User can search how many cards are there in any category.By clicking on the user card,the details of that card will be displayed.When he sees the details if he clicks on the donate button, he will see the toast and how many donations have been made on the donation page,and if he donates more than 4,he will see the see all button,then he can see less,he candelete the donation.If user clicks the same card a second time,the toast will appear.Then based on the user's donation,based on the total card,the pie chart will see how much percentage he has donated and how mush is left.User will be able to see how many cards are there with the same name by searching and after reloading will see all the cards and can search again."
+    },
+    {
+      "id": 2,
+      "name": "Job-Application",
+      "client": "https://github.com/sumitrapaul/job-application-client",
+      "server": "https://github.com/sumitrapaul/job-application-server",
+      "live": "https://weak-tooth.surge.sh/",
+      "image1": "https://i.ibb.co/2nYYGkg/Screenshot-1731.png",
+      "image2": "https://i.ibb.co/ZW4PZ11/Screenshot-1732.png",
+      "image3": "https://i.ibb.co/VLC5pcN/Screenshot-1733.png",
+      "image4": "https://i.ibb.co/dDNLMsQ/Screenshot-1736.png",
+      "image5": "https://i.ibb.co/378tM0q/Screenshot-1737.png",
+      "technology": "React Js , Node Js, MongoDB, Express Js, Firebase, Tailwind",
+      "features":
+        "When the user visits my website, he will see a navbar,banner,some category job,about us and gallery,footer.When the user clicks on the job details button,if he is not loggedin, he will be taken to the login page,if he is logged in,he will see the toast and if he clicks on the details button,he will see the details.Then if he wants to apply to the job,then on clicking on the apply button,the modal will open.Yes,if he submits,on the applied jobs page,if he selects the category,he will see the job and applicants will increase in that job,on the all jobs page,he will see all the jobs,anyone can post the desired job.On the my job page he can see only his posted jobs,update and delete them if he wants.User will see answers to some questions on the blog page.He'll toast and see to it all."
+    },
+    {
+      "id": 3,
+      "name": "Brand-Shop",
+      "client": "https://github.com/sumitrapaul/brand-fashion-client",
+      "server": "https://github.com/sumitrapaul/brand-fashion-server",
+      "live": "https://assignment-shop-brand.web.app/",
+      "image1": "https://i.ibb.co/jTH4sCQ/Screenshot-1738.png",
+      "image2": "https://i.ibb.co/2MPbVzd/Screenshot-1739.png",
+      "image3": "https://i.ibb.co/b1SZctH/Screenshot-1741.png",
+      "image4": "https://i.ibb.co/MGjCZbC/Screenshot-1742.png",
+      "image5": "https://i.ibb.co/9rjc2cY/Screenshot-1743.png",
+      "technology": "React Js , Node Js, MongoDB, Express Js, Firebase, Tailwind",
+      "features":
+        "When the user visits my website, he will see a navbar,fashion banner,some brands,our exceptional products and work,footer.When he clicks on brand,he will have to log in with email or google, he can log out and add product form must be filled.Then he clicks on brand,he will see his added product and it will be added to the database.If he click on details button,he will see the details.And If he click on AddToCart, his product and email will be added and his email will be added to the database and he can delete it if he want,it will also be deleted from the database.He clicks on update button to update product information."
+    }
+  ]
