@@ -10,6 +10,7 @@ import Projects from './pages/Projects/Projects';
 import About from './pages/About/About';
 import ContactUs from './pages/ContactUs/ContactUs';
 import ProjectDetails from './pages/Projects/ProjectDetails';
+import Education from './pages/Education/Education';
 
 
 
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>
+      },
+      {
+        path: "/education",
+        element: <Education></Education>
       },
       {
         path: "/skills",

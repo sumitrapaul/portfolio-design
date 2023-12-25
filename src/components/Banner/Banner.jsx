@@ -1,16 +1,5 @@
-
 import { TypeAnimation } from "react-type-animation";
-
 const Banner = () => {
-
-    const handleDownload = () =>{
-        const resumeUrl='/public/resume.pdf';
-        const a=document.createElement('a');
-        a.href = resumeUrl;
-        a.download="resume.pdf";
-        a.click()
-    }
-   
   return (
     <div className="mt-12 bg-gray-900">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
@@ -31,9 +20,7 @@ const Banner = () => {
             sequence={[
               "Highly Motivated Web Developer",
               1000,
-              "Problem Solver",
-              1000,
-              "Passionate Coder",
+              "Passionate Developer",
               1000,
               "Dedicated to Progress and Hard Work",
               1000,
@@ -47,11 +34,13 @@ const Banner = () => {
             style={{ fontSize: "2em", display: "inline-block", color: "white" }}
             repeat={Infinity}
           />
-          <br /><br />
-            <button onClick={handleDownload} className="btn btn-outline text-white">
-              Download Resume
+          <br />
+          <br />
+          <a href="Resume-sumitra.pdf" download="Resume.pdf">
+            <button className="btn btn-outline text-white">
+              Download
             </button>
-         
+          </a>
         </div>
       </div>
     </div>
