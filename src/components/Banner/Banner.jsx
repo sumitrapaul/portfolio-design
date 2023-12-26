@@ -48,7 +48,7 @@ const Banner = () => {
           <br />
           <a href="sumitra-paul-resume.pdf" download="Resume.pdf">
             <button className="btn btn-outline text-white">
-              Download
+              Download Resume
             </button>
           </a>
         </div>
