@@ -1,14 +1,7 @@
-// import { saveAs } from "file-saver";
+
 import { TypeAnimation } from "react-type-animation";
 
 const Banner = () => {
-
-  // const handleDownload = () => {
-  //   const fileUrl = 'https://drive.google.com/file/d/1ddNWT6a7ftT7f9gfA20_95-eLUwOmxk6/view?usp=sharing';
-  //   const fileName = 'sumitra-paul-resume.pdf'; // Adjust the file name and extension accordingly
-
-  //   saveAs(fileUrl, fileName);
-  // };
 
   return (
     <div className="mt-12 bg-gray-900">

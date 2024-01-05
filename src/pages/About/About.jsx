@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div className="mt-12">
      <h1 className="text-3xl font-bold text-center mb-12">
-        About <span className="text-red-800">Me</span>
+        About <span className="text-red-800">Us</span>
       </h1>
       <div className="card lg:card-side bg-gray-900 shadow-xl">
         <figure>
